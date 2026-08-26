@@ -1,0 +1,23 @@
+{
+  "issue": {
+    "key": "PROJ-123",
+    "fields": {
+      "summary": "Fix Safari login issue",
+      "description": "Users are reporting that they cannot log in when using Safari. The console shows an error related to localStorage in src/login.ts.",
+      "status": {
+        "name": "To Do"
+      },
+      "labels": ["genie-ai"],
+      "comment": {
+        "comments": [
+          {
+            "author": {
+              "displayName": "QA Team"
+            },
+            "body": "I reproduced this on Safari 16."
+          }
+        ]
+      }
+    }
+  }
+}
